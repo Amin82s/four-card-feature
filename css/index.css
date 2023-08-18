@@ -1,0 +1,128 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: "Rubik", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@800&family=Sarabun:wght@300&display=swap");
+body {
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  width: 90vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .title__head {
+  color: rgb(67, 66, 66);
+  font-size: 1.8em;
+}
+header .title__end {
+  font-family: "Rubik", sans-serif;
+  font-family: "Sarabun", sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+header .paragraph {
+  color: rgb(67, 66, 66);
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  width: 450px;
+}
+main {
+  width: 90vw;
+  height: 60vh;
+}
+main .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .box__data {
+  width: 30%;
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main .box__data-center {
+  box-shadow: 1px 1px 10px rgb(156, 156, 156);
+  width: 90%;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .box__data-center:nth-child(1) {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+main .box__data-center:nth-child(2) {
+  border-top: 5px solid hsl(34, 97%, 64%);
+  margin-top: 20px;
+}
+main .box__data-right {
+  box-shadow: 1px 1px 10px rgb(156, 156, 156);
+  width: 90%;
+  height: 200px;
+  border-radius: 10px;
+  border-top: 5px solid hsl(212, 86%, 64%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .box__data-left {
+  box-shadow: 1px 1px 10px rgb(156, 156, 156);
+  width: 90%;
+  height: 200px;
+  border-radius: 10px;
+  border-top: 5px solid hsl(180, 62%, 55%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .box__data-title {
+  width: 80%;
+  height: 20%;
+  margin-top: 10px;
+  display: flex;
+
+  align-items: center;
+}
+main .box__data-paragraph {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  color: rgb(67, 66, 66);
+  align-items: center;
+}
+.box__img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80%;
+  height: 45%;
+}
